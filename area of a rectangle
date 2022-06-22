@@ -1,0 +1,14 @@
+#include<iostream.h>
+#include<conio.h>
+int main()
+{
+int len, bre, area;
+cout<<"enter the lenght of rectangle";
+cin>>len;
+cout<<"enter the breadth of rectangle";
+cin>>bre;
+area= len*bre;
+cout<<"area of a rectangle is =" area;
+getch();
+return(0);
+}
