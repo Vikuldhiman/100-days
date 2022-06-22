@@ -1,0 +1,16 @@
+#include<iostream.h>
+#include<conio.h>
+int main()
+{
+int p,r,t,si;
+cout<<"enter the prenciple ammount";
+cin>>p;
+cout<<"enter the rate";
+cin>>r;
+cout<<"enter the time";
+cin>>t;
+si= p*r*t\100;
+cout<<"simple intrest is :"<<si;
+getch();
+return(0);
+}
