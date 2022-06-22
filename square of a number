@@ -1,0 +1,12 @@
+#include<iostream.h>
+#include<comio.h>
+int main()
+{
+int num,squ;
+cout<<"enter a number";
+cin>>num;
+squ=num*num;
+cout<<"the square is:"<<squ;
+getch();
+return (0):
+}
