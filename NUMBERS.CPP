@@ -1,3 +1,4 @@
+/ if 'n' is less then 9 the print in lowerscase then print number is more then nine */
 #include<iostream.h>
 #include<conio.h>
 int main()
