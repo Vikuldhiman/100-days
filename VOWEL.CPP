@@ -1,3 +1,4 @@
+/* input an alphabet and find alphabet is vowel or consonant */
 #include<iostream.h>
 #include<conio.h>
 int main()
