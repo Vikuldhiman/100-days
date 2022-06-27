@@ -1,3 +1,4 @@
+/* enter numbers and select choice (+,-,*,/) and take output */ 
 #include<iostream.h>
 #include<conio.h>
 int main()
