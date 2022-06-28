@@ -1,0 +1,18 @@
+/* input a number and find factorial */
+#include<iostream.h>
+#include<conio.h>
+int main()
+{
+clrscr();
+int a,x=1;
+cout<<"enter the number"<<endl;
+cin>>a;
+while (a>=1)
+{
+x=x*a;
+a--;
+}
+cout<<"factorial of a numbers is ="<<x;
+getch();
+return 0;
+}
