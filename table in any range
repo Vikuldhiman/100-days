@@ -1,0 +1,17 @@
+/* enter a number and range an get output in tabel form */
+#include <iostream>
+#include<conio,h>
+int main()
+{
+clrscr();
+    int n, r;
+    cout << "Enter an integer: ";
+    cin >> n;
+    cout << "Enter range: ";
+    cin >> r;
+    for (int i = 1; i <= r; ++i) {
+        cout << n << " * " << i << " = " << n * i << endl;
+    }
+    getch();
+   return 0;
+}
