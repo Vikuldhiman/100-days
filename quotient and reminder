@@ -1,0 +1,18 @@
+/* enter the divisior or divident and find reminder or quotient */
+#include <iostream>
+#include<conio.h>
+int main()
+{    
+ clrscr();
+    int d, di, q, r;
+    cout << "Enter dividend: " <<endl;
+    cin >> di;
+    cout << "Enter divisor: "<<endl;
+    cin >> d;
+    q = di / d;
+    r = di % d;
+    cout << "Quotient = " << q << endl;
+    cout << "Remainder = " << r;
+    getch();
+    return 0;
+}
