@@ -1,0 +1,16 @@
+/* enter a last number of counting and output is print in serial-wise */
+#include <iostream>  
+#include<conio.h>
+int main() 
+{  
+clrscr();
+     int i = 1,n;
+     cout<<"enter a number"<<endl;
+     cin>>n;
+          do{    
+              cout<<i<<"\n";    
+              i++;    
+          } while (i <= n) ;      
+getch();
+return 0;
+}
