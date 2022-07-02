@@ -1,0 +1,21 @@
+/* enter two numbers one by one and swap in output*/
+#include <iostream>
+#include<conio.h>
+int main()
+{
+clrscr();
+    int a,b, temp;
+    cout<<"enter the first number"<<endl;
+    cin>>a;
+    cout<<"enter the second number"<<endl;
+    cin>>b;
+    cout << "Before swapping." << endl;
+    cout << "a = " <<a<< " b = " << b << endl;
+    temp = a;
+    a = b;
+    b = temp;
+    cout << "\nAfter swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+    getch();
+    return 0;
+} 
