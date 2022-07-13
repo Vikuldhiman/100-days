@@ -1,3 +1,4 @@
+/* input any number and check that number is palindrome or not */
 #include<iostream.h>
 #include<conio.h>
 int main()
