@@ -1,0 +1,19 @@
+/* input any number and print its first and last digit */
+#include<iostream.h>
+#include<conio.h>
+int main()
+{
+clrscr();
+int n,first,last;
+cout<<"enter any number";
+cin>>n;
+last=n%10;
+while(n>0)
+{
+first=n%10;
+n=n/10;
+}
+cout<<first<<"\t"<<last;
+getch();
+return 0;
+}
