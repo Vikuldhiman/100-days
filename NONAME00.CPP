@@ -1,4 +1,5 @@
- #include<iostream.h>
+/* input any four digit niumber and print only sum of even digit numbers */
+#include<iostream.h>
  #include<conio.h>
  int main()
  {
