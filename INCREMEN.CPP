@@ -1,3 +1,4 @@
+/* increment function calling /
 #include<iostream.h>
 #include<conio.h>
 class test
