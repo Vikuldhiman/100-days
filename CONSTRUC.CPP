@@ -1,3 +1,4 @@
+/* using constructor */
 #include<iostream.h>
 #include<conio.h>
 class calculation
