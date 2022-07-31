@@ -1,3 +1,4 @@
+/* input an number and check hour minutes in that number */
 #include<iostream.h>
 #include<conio.h>
 class time
