@@ -8,5 +8,5 @@ cout<<"enter the three numbers";
 cin>>a>>b>>c;
 cout<<" the sum of the three numbers is "<<a<<"+"<<b<<"+"<<c<<"="<<a+b+c;
 getch();
-return (0);
+return 0;
 }
