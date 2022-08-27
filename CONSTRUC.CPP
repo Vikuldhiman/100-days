@@ -23,3 +23,4 @@ obj1.square();
 getch();
 return 0;
 }
+
